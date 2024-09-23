@@ -2,14 +2,23 @@
 
 ## Git commands
 
-## To clone a repository
+### To clone a repository
     git clone https URL
 
 ## To stage the changes
     git add <file name>
 
-### To commit the changes
+## To commit the changes
     git commit -m <commit msg>
+
+## To push the changes
+    git push origin <source branch>
+    class01 -> main
+    git push origin class01
+
+### To check/verify modified content in the existing file
+    git diff <filename>
+
 
 
 ## Course completed
