@@ -22,3 +22,10 @@
 ## Course completed
 
 class01 sept18 https://us06web.zoom.us/rec/share/FmBPyvAsTuu_uEcE6glhkCmt-_uc9Uc7BxEqTUUSk021nt-WvW1inuw2CUGbkIgd.o1G7sr94PTh4lGhI
+
+class02 sep 19th
+Introduction to python
+Basic datatype supports
+Indentation issue
+Dynamic typing
+shebang line usage
