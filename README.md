@@ -34,13 +34,38 @@ To create a new branch
 
 
 
+
+
 ## Course completed
 
 class01 sept18 https://us06web.zoom.us/rec/share/FmBPyvAsTuu_uEcE6glhkCmt-_uc9Uc7BxEqTUUSk021nt-WvW1inuw2CUGbkIgd.o1G7sr94PTh4lGhI
 
-class02 sep 19th
+## class02 sep 19th
 Introduction to python
 Basic datatype supports
 Indentation issue
 Dynamic typing
 shebang line usage
+
+## class03 
+Indetifiers
+comments 
+Multi statements
+
+# class04
+
+02. Basics
+
+Arithmetic operations
+
+    + - = 1, 11,%,
+    divmod() function
+    compound operators
+    Juypter notebooks
+
+## Class05 
+    Practical Problem solving
+    working with complex numbers
+    (abs) function
+    Operator precedence in Arithmetic
+    operations
