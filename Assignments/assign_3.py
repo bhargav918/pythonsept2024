@@ -13,6 +13,7 @@ time = int(input("Enter Time in years t:"))
 print("Time in years :", time)
 
 total_amount = principal_amount * (1 + interest_rate * time)
+
 print("simple interest is :" , total_amount)
 
 
@@ -31,6 +32,7 @@ time_t = float(input("Enter the time in years"))
 
 CI = principal_amount_p * (1 + interest_rate / no_of_periods_n)**(no_of_periods_n * time_t)
 print("compound interest is", round(CI, 2))
+
 
 
 
