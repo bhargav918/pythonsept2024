@@ -27,5 +27,5 @@ balance = balance - 1500
 print("Account Balance after deducting rent is", balance) #House Rent paid of 1500
 
 display_balance = balance   # (0 + 1500 + 3300 - 33.33 - 1500) = 3266.67
-print("Remaining balance is ", round(balance , 2))  # displaay balance
+print("Remaining balance is ", round(balance , 2))  # display balance
 

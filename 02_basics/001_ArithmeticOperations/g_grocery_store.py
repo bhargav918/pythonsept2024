@@ -9,7 +9,7 @@ into variables
 Step 2: Get the quantity of items from the user(in run time)
 
 """
-NOTE: input ()
+
 # cost of items
 cost_of_rice = 10   # per kg
 cost_of_wheat = 34 
