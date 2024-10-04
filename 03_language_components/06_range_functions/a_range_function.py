@@ -16,7 +16,11 @@ purpose: range function
         - Lazy loading object
 
         """
+
 values = range(9)
+print(type(values), values)
+
+values = range(10)
 print(type(values), values)
 
 values = range(0,9,2)
