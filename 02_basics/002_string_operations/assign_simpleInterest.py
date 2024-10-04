@@ -32,13 +32,3 @@ time_t = float(input("Enter the time in years"))
 
 CI = principal_amount_p * (1 + interest_rate / no_of_periods_n)**(no_of_periods_n * time_t)
 print("compound interest is", round(CI, 2))
-
-
-
-
-
-
-
-
-
-
