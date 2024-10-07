@@ -39,3 +39,19 @@ if 150 < remaining_units <= 250:
     
 if 100 < remaining_units <= 150:
     slab_units = remaining_units - 100
+    amount += slab_units * 4.00
+
+if 60 < remaining_units <= 100:
+    slab_units = remaining_units - 60
+    amount += slab_units * 2.00
+
+if 0 < remaining_units <= 60:
+    slab_units = remaining_units 
+    amount += slab_units * 1.25
+
+electricity_cess = amount * 0.02
+discount = amount * -0.011
+total = amount + electricity_cess - discount
+gst = total * 0.07
+bill_amount = total + gst
+print(f" total bill_amount is :",round(bill_amount,2))
