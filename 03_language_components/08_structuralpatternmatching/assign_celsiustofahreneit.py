@@ -1,7 +1,9 @@
 
 #!/usr/bin/python3
 
-celsius = int(input("Enter the Temperature in Celsius :"))   #celsius to fahrenheit
+
+#celsius to fahrenheit
+celsius = int(input("Enter the Temperature in Celsius :"))   
 fahrenheit = (1.8 * celsius) + 32
 print("Temperature in Fahrenheit :", fahrenheit)
 
