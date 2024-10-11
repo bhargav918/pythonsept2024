@@ -39,3 +39,15 @@ print("Changed:", changed_text)
 print("chr(77):", chr(77))  # Output: M
 print("ord('M'):", ord('M'))  # Output: 77
 
+# ord()
+# Purpose: Converts a character (string of length 1) to its corresponding integer Unicode code point.
+#eg:
+# print(chr(65))  # Output: 'A'
+# print(chr(97))  # Output: 'a'
+
+# chr()
+# Purpose: Converts an integer (representing a Unicode code point) to its corresponding character.
+
+#eg:
+# print(ord('A'))  # Output: 65
+# print(ord('a'))  # Output: 97
