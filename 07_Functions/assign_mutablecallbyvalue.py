@@ -25,7 +25,7 @@ print("Outside function:", num)
 
 #------------------------------------------------
 def change_none(n):                           # None
-    n = "Something"
+    n = "none"
     print("Inside function:", n)
 var = None
 change_none(var)

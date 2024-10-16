@@ -29,8 +29,8 @@ def calculate(a, b, *args, **kwargs):
     print(f"a: {a}, b: {b}, args: {args}, kwargs: {kwargs}")
     return a + b + sum(args)
 
-calculate_with_defaults = partial(calculate, 10, 20)          # calling the partial func
-result = calculate_with_defaults(30, 40, c=50)                #calling function with additional args
+mixed_args = partial(calculate, 10, 20)          # calling the partial func
+result = mixed_args(30, 40, c=50)                #calling function by adding args
 print("Result:", result)
 
 
