@@ -29,22 +29,36 @@ class DoubleLinkedList:
     def __repr__(self):
         return f"{self.prev_nd_addr}|{self.data}|{self.next_nd_addr}"
 
+d1 = DoubleLinkedList('h')
+print(d1)
 
+d2 = DoubleLinkedList('e')
+print(d2)
 
-word = "hello"
-list_of_nodes = []
-previous_node = None
+d3 = DoubleLinkedList('l')
+print(d3)
 
-for char in word:
-    node = DoubleLinkedList(char)
+d4 = DoubleLinkedList('l')
+print(d4)
 
-    if previous_node:  
-        previous_node.set_next_node_address(id(node))
-        node.set_prev_node_address(id(previous_node))
+d5 = DoubleLinkedList('o')
+print(d5)
 
-    
-    list_of_nodes.append(node)
-    previous_node = node  
+d1.set_next_node_address(id(d2))  
+d2.set_prev_node_address(id(d1))   
 
-for node in list_of_nodes:
-    print(node)
+d2.set_next_node_address(id(d3))   
+d3.set_prev_node_address(id(d2))    
+
+d3.set_next_node_address(id(d4))   
+d4.set_prev_node_address(id(d3))    
+
+d4.set_next_node_address(id(d5))    
+d5.set_prev_node_address(id(d4))     
+
+print()
+print(d1)
+print(d2)
+print(d3)
+print(d4)
+print(d5)
